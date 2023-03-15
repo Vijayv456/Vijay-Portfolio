@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css-1/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Personal website</title>
+  
+</head>
+<body>
+
+  <div id="menu" >
+    <button id="menuicon" onclick="menudisplay()" >
+    <i class="fa-sharp fa-solid fa-bars"></i></button>
+    <button id="cancleicon" onclick="menuhide()">
+    <i class="fa-sharp fa-solid fa-x"></i>
+    </button> 
+    
+      <div class="portfolio">
+        <span class="port">Port</span>
+        <span class="f">f</span>
+        <span class="olio">olio.</span>
+      </div>
+</div>
+<div id="menutop" >
+    <a href="#home" class="homemenu" onclick="homemenu()"><i class="fa-sharp fa-solid fa-house"></i>Home</a>
+    <a href="#about" class="aboutmenu" onclick="homemenu()"><i class="fa-sharp fa-solid fa-clipboard"></i>About</a>
+    <a href="#skills" class="skillsmenu" onclick="homemenu()"><i class="fa-sharp fa-solid fa-chart-simple"></i>Skills</a>
+    <a href="#project"class="projectmenu" onclick="homemenu()"><i class="fa-solid fa-pen-to-square"></i>Project</a>
+    <a href="#contact"class="contactmenu" onclick="homemenu()"><i class="fa-sharp fa-solid fa-user"></i>Contact</a>
+   
+    <hr><span class="social-flatform">
+      <p>Social
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" color="#0073cf" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+          <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+        </svg></p>
+    </span>
+    
+  
+    <div class="social">
+      <a href="https://www.instagram.com/vijayvtrvv456/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/v-vijay-574560244/"><i class="fa-brands fa-linkedin"></i></a>
+   <a href="https://www.facebook.com/vijay.thalapathyvijay.982"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="https://github.com/Vijayvtrvv"><i class="fab fa-github"></i></a>
+    </div>
+</div>
+
+    <section class="home" id="home">
+        <div class="home-head">
+            <h2>Welcome To My Website</h2>
+        </div>
+        <div class="home-cont">
+            <div class="home-cont-l1"><p>Hi, There,I'm</p></div>
+            <div class="home-cont-l2"><p>Vijay.V</p></div>
+            <div class="home-cont-l2-2"><p>Vijay.V</p></div>
+            <div class="home-cont-l3"><p>And I'm<span class="typed-text"></span><span class="cursor">|</span></p></div>
+            <button class="cv-btn"><a href="./RESUME Vijayv.docx" download="Resume">Download CV</a></button>
+        </div>
+        
+    </section>
+    <section class="about" id="about">
+        <div class="about-head">
+          <h2>About</h2>
+        </div>
+        <div class="about-body">
+          <div class="about-body-cont">
+            <div class="about-body-cont-cont1">Hello I'm <span id="vijayanimation"><span>V</span><span>I</span><span>J</span><span>A</span><span>Y</span></span> and I'm <span id="developer">Developer</span></div>
+            <br><hr id="hr1">
+              <div class="about-body-cont-cont2">
+            <p>      I am a positive, enthusiastic and competent Web
+              Developer who, over the years, has built up a diverse range of skills,
+              qualities and attributes that guarantee I will perform highly in this
+              role. I have extensive experience working both alone and as part of a
+              team on often time-sensitive, challenging web development projects
+              that require outstanding creative and technical capabilities and the
+              ability to ensure all work is optimized across a wide range of
+              platforms. I take my work as a Web Developer seriously and this means
+              I always ensure my skills are kept up to date within this rapidly
+              changing industry.</p>
+              <p id="demo"></p>
+              </div>
+              <hr id="hr2">
+          </div>
+          <div class="about-body-img reveal">
+            <img src="./IMG_20221125_200941_282.jpg" loading="eager" />
+          </div>
+        </div>
+      </section>
+    
+      <script src="./script/Tying.js"></script>
+      <section class="skills" id="skills">
+        <div class="skills-head">
+            <p>Skills</p>
+        </div>
+        <div class="skills-body">
+            <div class="skills-body-frontend reveal">
+                <div class="skills-body-frontend-head"><p>Front-end</p></div>
+                <div class="skills-body-frontend-1">
+                    <i class="fa-brands fa-html5"></i>
+                    <span class="skills-body-frontend-title">HTML5</span>
+                    <div class="html5-per">
+                        <div class="html-per1">
+                            80%
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-body-frontend-1">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span class="skills-body-frontend-title">CSS3</span>
+                    <div class="css-per">
+                        <div class="css-per1">
+                            80%
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-body-frontend-1">
+                    <i class="fa-brands fa-js"></i>
+                    <span class="skills-body-frontend-title">JavaScript</span>
+                    <div class="js-per">
+                        <div class="js-per1">
+                            60%
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-body-frontend-1">
+                    <i class="fa-brands fa-react"></i>
+                    <span class="skills-body-frontend-title">React</span>
+                    <div class="reactjs-per">
+                        <div class="reactjs-per1">
+                            50%
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-body-backend reveal">
+                <div class="skills-body-backend-head"><p>Back-end</p></div>
+                <div class="skills-body-backend-2">
+                    <i class="fa-brands fa-node"></i>
+                    <span class="skills-body-backend-title">Node</span>
+                    <div class="nodejs-per">
+                        <div class="nodejs-per1">
+                            50%
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-body-backend-2">
+                    <i class="fa-brands fa-java"></i>
+                    <span class="skills-body-backend-title">Java</span>
+                    <div class="java-per">
+                        <div class="java-per1">
+                            40%
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-body-database reveal">
+                <div class="skills-body-database-head"><p>Database</p></div>
+                <div class="skills-body-database-3">
+                    <i class="fa-solid fa-database"></i>
+                    <span class="skills-body-database-title">Mysql</span>
+                    <div class="sql-per">
+                        <div class="sql-per1">
+                            60%
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-body-database-3">
+                    <i class="fa-brands fa-mdb"></i>
+                    <span class="skills-body-database-title">MongoDB</span>
+                    <div class="mdb-per">
+                        <div class="mdb-per1">
+                            60%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+      <div class="project-container">
+        <div class="project-head">Project</div>
+        <div class="project-body">
+          <div class="project-project1 reveal">
+              
+            <div class="myproject project-animation">
+              <div class="project-image"><img src="./images/Shape-Coca-Cola-Logo.jpg" alt=""></div>
+              <div class="project-title">Coca-Cola</div>
+              <div class="project-lang">#Html #css #javascript</div>
+              <div class="project-discrption">This project name coca-cola clone website with responsive</div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Cocacola-Clone/">View</a></button>
+                <button class="code"><a href="https://github.com/Vijayv456/Cocacola-Clone">Code</a></button>
+              </div>
+            </div>
+            <div class="myproject project-animation">
+              <div class="project-image"><img src="./images/social-media-dashboard.png" alt="" class="social-media-dashboard-img"></div>
+              <div class="project-title">Social-Media-Dashboard</div>
+              <div class="project-lang">#Html #css #javascript</div>
+              <div class="project-discrption">This project name social-media-dashboard website with responsive</div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Social-Media-Dashboard/">View</a></button>
+                <button class="code"><a href="https://github.com/Vijayv456/Social-Media-Dashboard">Code</a></button>
+              </div>
+            </div>
+             <div class="myproject project-animation">
+              <div class="project-image"><img src="./images/calculator.webp" alt=""></div>
+              <div class="project-title">Calculator</div>
+              <div class="project-lang">#Html #css #javascript</div>
+              <div class="project-discrption">This project name calculator to perform some basic calculations website</div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Simple-Calculator/">View</a></button>
+                <button class="code"><a href="https://github.com/Vijayv456/Simple-Calculator">Code</a></button>
+              </div>
+            </div>
+             <div class="myproject project-animation">
+              <div class="project-image"><img src="./images/Chess-logo.jpg" alt=""></div>
+              <div class="project-title">Chess-Board</div>
+              <div class="project-lang">#Html #css</div>
+              <div class="project-discrption">This project name chessboard created using html and css website</div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Chess-board/">View</a></button>
+                <button class="code"><a href="https://github.com/Vijayv456/Chess-board">Code</a></button>
+              </div>
+            </div>
+            <div class="myproject project-animation">
+              <div class="project-image"><img src="./images/library.jpg" alt=""></div>
+              <div class="project-title">Library</div>
+              <div class="project-lang">#Html #css #javascript</div>
+              <div class="project-discrption">This project name Library-gamr you should pick some books </div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Library-Game/">View</a></button>
+                  <button class="code"><a href="https://github.com/Vijayv456/Library-Game">Code</a></button>
+              </div>
+            </div>
+            <button class="project-prev" id="prev-btn" onclick="plusSlides(-1)">&#10094;</bitton>
+            <button class="project-next" id="next-btn" onclick="plusSlides(1)">&#10095;</button>
+            <div class="dot-buttons">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+          </div>
+  
+          <div class="project-project2 reveal">
+            <div class="myproject2 project-animation">
+              <div class="project-image"><img src="./images/cricket-game.png" alt=""></div>
+              <div class="project-title">Cricket-Game</div>
+              <div class="project-lang">#Html #css #javascript</div>
+              <div class="project-discrption">This project name Cricket-Game You can play and chase the target</div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Cricket-Game/">View</a></button>
+                <button class="code"><a href="https://github.com/Vijayv456/Cricket-Game">Code</a></button>
+              </div>
+            </div>
+            <div class="myproject2 project-animation">
+              <div class="project-image"><img src="./images/rock,_paper_larger.jpg" alt=""></div>
+              <div class="project-title">Rock,Paper,Scissor-Game</div>
+              <div class="project-lang">#Html #css #javascript</div>
+              <div class="project-discrption">This project name Stone-Paper-Scissor-Game You can play</div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Stone-Paper-Scissor-Game/">View</a></button>
+                  <button class="code"><a href="https://github.com/Vijayv456/Stone-Paper-Scissor-Game">Code</a></button>
+              </div>
+            </div>
+            <div class="myproject2 project-animation">
+              <div class="project-image"><img src="./images/recipe-search.webp" alt=""></div>
+              <div class="project-title">Recipe-Search</div>
+              <div class="project-lang">#Html #css #javascript</div>
+              <div class="project-discrption">This project name Recipe-Search You can Search some foods</div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Search-Engine/">View</a></button>
+                  <button class="code"><a href="https://github.com/Vijayv456/Search-Engine">Code</a></button>
+              </div>
+            </div>
+            <div class="myproject2 project-animation">
+              <div class="project-image"><img src="./images/police-chasing.webp" alt=""></div>
+              <div class="project-title">Police-chasing-Animation</div>
+              <div class="project-lang">#Html #css</div>
+              <div class="project-discrption">This project name police car chasing the taxi only Animations</div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Police-Chasing-Animation/">View</a></button>
+                  <button class="code"><a href="https://github.com/Vijayv456/Police-Chasing-Animation">Code</a></button>
+              </div>
+            </div>
+            <div class="myproject2 project-animation">
+              <div class="project-image"><img src="./images/login.jpg" alt="" class="social-media-dashboard-img"></div>
+              <div class="project-title">Login-Form</div>
+              <div class="project-lang">#Html #css #javascript</div>
+              <div class="project-discrption">This project name Login-Form you can login or signup with validation</div>
+              <div class="project-buttons">
+                  <button class="view"><a href="https://vijayv456.github.io/Login-From/">View</a></button>
+                  <button class="code"><a href="https://github.com/Vijayv456/Login-From">Code</a></button>
+              </div>
+            </div>
+            <button class="project-prev" id="prev-btn1" onclick="addSlides(-1)">&#10094;</button>
+            <button class="project-next" id="next-btn1" onclick="addSlides(1)">&#10095;</button>
+            <div class="dot-buttons">
+              <span class="dot1" onclick="newSlide(1)"></span>
+              <span class="dot1" onclick="newSlide(2)"></span>
+              <span class="dot1" onclick="newSlide(3)"></span>
+              <span class="dot1" onclick="newSlide(4)"></span>
+              <span class="dot1" onclick="newSlide(5)"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section class="contact" id="contact">
+        <div class="con-head">
+          <h2>Contact</h2>
+        </div>
+        <div class="con-cont">
+          <div class="con-cont-head">
+              <div class="con-cont-head-head">
+                  <h4><strong>Contact Details</strong></h4>
+              </div>
+            <div class="con-cont-head-cont">
+              <p>
+                Need to get in touch with us? Either fill out the form with your
+                inquiry or find the <a href="mailto:{vijayvtrvv456@gmail.com}?subject={subject}&body={content}">vijayvtrvv456@gmail.com</a> And
+                <a href="tel:{6382860513}">call me</a>  your'd
+                like to contact below
+              </p>
+            </div>
+            <div class="cont-name">
+              <p><strong>Name:</strong></p>
+              <p>Vijay.V</p>
+            </div>
+            <div class="cont-address">
+              <p><strong>Address:</strong></p>
+              <p>Ayapakkam/Chennai,India</p>
+            </div>
+            <div class="cont-email">
+              <p><strong>Email:</strong></p>
+              <p>vijayvtrvv456@gamil.com</p>
+            </div>
+            <div class="cont-phone">
+              <p><strong>Phone:</strong></p>
+              <p>63828605XX</p>
+            </div>
+          </div>
+          <div class="con-cont-body reveal">
+            <div class="con-cont-body-head">
+              <h4>Just Say Hello</h4>
+            </div>
+            <form id="form">
+              <div class="con-cont-body-body">
+                <div><input type="text" name="from_name" id="from_name" placeholder="Your Name" required/></div>
+                <div><input type="email" placeholder="Your Mail" name="email"  id="email" required/></div>
+                <div><input type="text" id="subject" name="subject" placeholder="Subject" required/></div>
+                <div><textarea id="message" placeholder="Your Message"  name="message" required></textarea></div>
+                <div><button type="submit" id="button">Send Message</button></div>
+              </div>
+            </form>
+            <script type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+       emailjs.init('_yqmyQ7Mg5-QOvBXe')
+       </script>
+       <script src="./script/contact.js"></script>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="social-media">
+          <div class="social">
+            <a href="https://www.instagram.com/vijayvtrvv456/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/v-vijay-574560244/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/vijay.thalapathyvijay.982"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://github.com/Vijayvtrvv"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="copyright">
+            <p>Created by
+            <a href="mailto:{vijayvtrvv456@gmail.com}?subject={subject}&body={content}">Vijay</a></p><p><i class="fa-regular fa-copyright"></i></i>2023 All
+            rights reserved</p>
+          </div>
+        </div>
+      </footer>
+      <script src="./script/Script.js"></script>
+  <script src="./script/inner.js"></script>
+</body>
+</html>
